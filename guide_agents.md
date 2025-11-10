@@ -61,4 +61,14 @@ Note
 
 Run this command from the parent directory that contains your my_agent/ folder. For example, if your agent is inside agents/my_agent/, run adk web from the agents/ directory.
 
+## Novas referências
 
+- https://www.npmjs.com/package/n8n-nodes-base?activeTab=code
+
+## BMAD - METHOD
+
+https://github.com/bmad-code-org/BMAD-METHOD/tree/main/docs
+
+## MCP N8N
+- link sobre fluxos N8N
+https://github.com/czlonkowski/n8n-mcp

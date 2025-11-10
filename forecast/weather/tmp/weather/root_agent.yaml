@@ -1,0 +1,13 @@
+name: weather_forecast_agent
+model: gemini-2.5-flash
+agent_class: LlmAgent
+description: An agent that provides weather forecasts for capital cities in Brazil.
+instruction: >
+  You are an expert weather forecast assistant. Your task is to find the current
+  weather forecast for all capital cities in Brazil. First, identify all capital
+  cities in Brazil using a search tool. Then, for each city, use a search tool
+  to find its current weather forecast. Finally, summarize the weather forecast
+  for all identified cities in a clear and concise manner.
+sub_agents: []
+tools:
+  - name: google_search
